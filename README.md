@@ -8,6 +8,10 @@ Convert any portrait photo into a realistic Apple Pencil hand-drawn anime illust
 
 把任意人物照片转换成极具拟真度的高清数字平板手绘过程视频（1080×1920 竖屏），模仿真人画师在 iPad 上使用 Apple Pencil 运笔、分层绘制、五官特写镜头推进、花体作者签名与全原创环境伴奏。
 
+
+> **Based on [threerocks/sweety-handdraw-video](https://github.com/threerocks/sweety-handdraw-video) (MIT).**
+> 本项目基于 threerocks 的开源项目 [sweety-handdraw-video](https://github.com/threerocks/sweety-handdraw-video) 改编，核心渲染代码和手部素材来自原项目，详见下方[致谢与出处](#-credits--致谢与出处)。
+
 ---
 
 ## 🎨 Demo / 成果展示
@@ -132,6 +136,22 @@ photo-to-handdraw-video/
 
 ---
 
+## 🙏 Credits / 致谢与出处
+
+This project is a derivative of **[sweety-handdraw-video](https://github.com/threerocks/sweety-handdraw-video)** by **[threerocks](https://github.com/threerocks)**, released under the MIT License. Thanks to the original author for the excellent work.
+
+本项目改编自 threerocks 的开源项目 **sweety-handdraw-video**（MIT 协议），感谢原作者。
+
+- **来自原项目（未改动）：** `core/` 下的大部分渲染、笔触、运镜与配乐模块，以及 `assets/src/` 下的全部手部与笔刷素材
+- **在原项目基础上修改：** `core/anime.py`、`core/annotate.py`、`core/film.py`、`SKILL.md`、`requirements.txt`
+- **本仓库新增：** `cli.py` 统一命令行入口、`install.sh`、Agent Skill 打包方式与示例图片
+
+想了解原始实现和更多玩法，请访问原项目。
+
+---
+
 ## 📄 License
 
-MIT License. See [LICENSE](LICENSE) for details.
+MIT License. See [LICENSE](LICENSE) for details. The original copyright notice of threerocks is retained as required by the MIT License.
+
+保留了原作者 threerocks 的版权声明，符合 MIT 协议要求。
